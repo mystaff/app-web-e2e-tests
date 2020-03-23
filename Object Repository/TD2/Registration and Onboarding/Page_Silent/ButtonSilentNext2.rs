@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ButtonSilentNext2</name>
+   <tag></tag>
+   <elementGuidId>4805d84b-8d7a-4623-9ecd-66985b852790</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[6]/div[6]/md-dialog/md-dialog-actions/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;wizard-root&quot;]/div[6]/md-dialog/md-dialog-actions</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;wizard-root&quot;]/div[6]/md-dialog/md-dialog-actions</value>
+   </webElementProperties>
+</WebElementEntity>

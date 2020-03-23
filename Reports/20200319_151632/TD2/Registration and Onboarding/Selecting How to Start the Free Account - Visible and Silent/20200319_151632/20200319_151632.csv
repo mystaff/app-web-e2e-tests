@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Selecting How to Start the Free Account - Visible and Silent,Chrome 80.0.3987.149,,,2020-03-19 15:16:35,2020-03-19 15:17:43,1m - 7.148s,FAILED
+,,,,,,,
+Test Cases/TD2/Signup and OnBoarding/Direct Signup/Direct Signup Page,Chrome 80.0.3987.149,Direct Signup Page,,2020-03-19 15:16:36,2020-03-19 15:17:43,1m - 6.710s,FAILED
+"openBrowser("""")",Chrome 80.0.3987.149,Opening the Browser,,2020-03-19 15:16:37,2020-03-19 15:16:41,4.122s,PASSED
+maximizeWindow(),Chrome 80.0.3987.149,Maximimize the Window,,2020-03-19 15:16:41,2020-03-19 15:16:41,0.212s,PASSED
+"navigateToUrl(""https://2.timedoctor.com/#/signup"")",Chrome 80.0.3987.149, Navigate to https://2.timedoctor.com/#/signup,,2020-03-19 15:16:41,2020-03-19 15:16:45,4.286s,PASSED
+"click(findTestObject(""TD2/Registration and Onboarding/Page_Registration/Register Button""), STOP_ON_FAILURE)",Chrome 80.0.3987.149,Click on Signup,,2020-03-19 15:16:45,2020-03-19 15:16:45,0.005s,NOT_RUN
+"setText(findTestObject(""TD2/Registration and Onboarding/Registration/Page_Register/InputName""), ""Payal"")",Chrome 80.0.3987.149, Enter Name,,2020-03-19 15:16:45,2020-03-19 15:16:47,1.497s,PASSED
+"emailAddress = ""payal+"" + getDateTime() + ""@timedoctor.com""",Chrome 80.0.3987.149,Generate unique email address,,2020-03-19 15:16:47,2020-03-19 15:16:47,0.002s,PASSED
+nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss),Chrome 80.0.3987.149,,,2020-03-19 15:16:47,2020-03-19 15:16:47,0.018s,PASSED
+now = new java.util.Date(),Chrome 80.0.3987.149,,,2020-03-19 15:16:47,2020-03-19 15:16:47,0.012s,PASSED
+strDate = nowDateTime.format(now),Chrome 80.0.3987.149,,,2020-03-19 15:16:47,2020-03-19 15:16:47,0.006s,PASSED
+return strDate,Chrome 80.0.3987.149,,,2020-03-19 15:16:47,2020-03-19 15:16:47,0.004s,PASSED
+"waitForElementVisible(findTestObject(""TD2/Registration and Onboarding/Registration/Page_Register/InputEmailAddress""), 15)",Chrome 80.0.3987.149,"Wait for email field to be visible, max waiting time 60 seconds",,2020-03-19 15:16:47,2020-03-19 15:16:48,0.944s,PASSED
+"setText(findTestObject(""TD2/Registration and Onboarding/Registration/Page_Register/InputEmailAddress""), emailAddress)",Chrome 80.0.3987.149,Input generated unique email address to email field,,2020-03-19 15:16:48,2020-03-19 15:16:49,0.847s,PASSED
+"setEncryptedText(findTestObject(""TD2/Registration and Onboarding/Registration/Page_Register/InputPassword""), ""Px/nOzMEHWxU8lgHigNsmA=="")",Chrome 80.0.3987.149,Enter the password,,2020-03-19 15:16:49,2020-03-19 15:16:50,1.210s,PASSED
+"click(findTestObject(""TD2/Registration and Onboarding/Registration/Page_Register/ButtonSignup""))",Chrome 80.0.3987.149,Clicking Signup button,,2020-03-19 15:16:50,2020-03-19 15:16:51,1.023s,PASSED
+delay(5),Chrome 80.0.3987.149,,,2020-03-19 15:16:51,2020-03-19 15:16:56,5.053s,PASSED
+"setText(findTestObject(""TD2/Registration and Onboarding/Registration/Page_Create New Workspace/InputName""), ""QA"")",Chrome 80.0.3987.149,Enter Company Name,,2020-03-19 15:16:56,2020-03-19 15:16:56,0.469s,PASSED
+"click(findTestObject(""TD2/Registration and Onboarding/Registration/Page_Create New Workspace/ToggleBlurScreenshot""))",Chrome 80.0.3987.149,Activate Blur Screenshot,,2020-03-19 15:16:56,2020-03-19 15:16:57,0.572s,PASSED
+"click(findTestObject(""TD2/Registration and Onboarding/Registration/Page_Create New Workspace/RemoveQueryParmeter""))",Chrome 80.0.3987.149,Activate Parmeter,,2020-03-19 15:16:57,2020-03-19 15:16:58,0.530s,PASSED
+"verifyElementText(findTestObject(""TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure""), ""Are you sure?"")",Chrome 80.0.3987.149,Handle the popup,,2020-03-19 15:16:58,2020-03-19 15:17:43,45.060s,FAILED

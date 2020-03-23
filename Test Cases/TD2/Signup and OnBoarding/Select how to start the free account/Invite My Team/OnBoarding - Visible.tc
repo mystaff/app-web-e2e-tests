@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Invite My Team - Visible Option Selected</description>
+   <name>OnBoarding - Visible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef0c746f-d81c-44a9-b107-f0f17c5416e1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selecting How to Start the Free Account - Visible and Silent" time="336.529" tests="8" failures="0" errors="0">
+   <testsuite name="Selecting How to Start the Free Account - Visible and Silent" tests="8" failures="0" errors="0" time="336.529" timestamp="2020-03-18 18:48:43" hostname="payalchoksey - payals-air" id="Test Suites/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200318_184837/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200318_184837"/>
+         <property name="logFiles" value="/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200318_184837/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200318_184837/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="payalchoksey - payals-air"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="e0b0e43ca8ce2436ce828ce3dac31d2b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TD2/General/Opening Browser" time="18.309" classname="Test Cases/TD2/General/Opening Browser" status="PASSED">
+         <system-out><![CDATA[2020-03-18 18:48:44 - [TEST_CASE][PASSED] - Test Cases/TD2/General/Opening Browser: Test Cases/TD2/General/Opening Browser
+
+2020-03-18 18:48:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-18 18:48:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-18 18:48:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-18 18:48:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-18 18:48:52 - [TEST_STEP][PASSED] - navigateToUrl("https://2a.timedoctor.com"): Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-18 18:49:02 - [MESSAGE][PASSED] - Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-18 18:49:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-18 18:49:02 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes" time="86.701" classname="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes" status="PASSED">
+         <system-out><![CDATA[2020-03-18 18:49:02 - [TEST_CASE][PASSED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes
+
+2020-03-18 18:49:03 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-03-18 18:49:03 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-03-18 18:49:03 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2020-03-18 18:49:03 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2020-03-18 18:49:03 - [TEST_STEP][NOT_RUN] - navigateToUrl("www.timedoctor.com"): NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-18 18:49:03 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-18 18:49:03 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-18 18:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-18 18:49:23 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL)): null
+
+2020-03-18 18:49:25 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/WebsiteVersion' is present
+
+2020-03-18 18:49:25 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/SwitchVersion")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/SwitchVersion' is clicked on
+
+2020-03-18 18:49:27 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'payals-air', ip: 'fe80:0:0:0:1c54:7313:354:3ba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/y0/2h8rty_s349...}, goog:chromeOptions: {debuggerAddress: localhost:55386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d0a75e6fdc7e35606f6180de92e7e2e8
+
+2020-03-18 18:49:57 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'payals-air', ip: 'fe80:0:0:0:1c54:7313:354:3ba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/y0/2h8rty_s349...}, goog:chromeOptions: {debuggerAddress: localhost:55386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d0a75e6fdc7e35606f6180de92e7e2e8
+
+2020-03-18 18:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/SwitchVersion' is clicked on
+
+2020-03-18 18:49:57 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes"), 10, OPTIONAL)): null
+
+2020-03-18 18:49:59 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present
+
+2020-03-18 18:49:59 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is clicked on
+
+2020-03-18 18:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is clicked on
+
+2020-03-18 18:50:06 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes2")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes2' is clicked on
+
+2020-03-18 18:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes2' is clicked on
+
+2020-03-18 18:50:07 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes3")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes3' is clicked on
+
+2020-03-18 18:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes3' is clicked on
+
+2020-03-18 18:50:08 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/RadioAccountOption")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-18 18:50:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-18 18:50:09 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-18 18:50:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-18 18:50:09 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonContinue")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-18 18:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-18 18:50:10 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputName"), "Payal"): Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+
+2020-03-18 18:50:10 - [MESSAGE][PASSED] - Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+
+2020-03-18 18:50:10 - [TEST_STEP][NOT_RUN] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com"): NOT_RUN: setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com")
+
+2020-03-18 18:50:10 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com")
+
+2020-03-18 18:50:10 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-18 18:50:10 - [TEST_STEP][PASSED] - emailAddress = "payal+" + getDateTime() + "@timedoctor.com": null
+
+2020-03-18 18:50:10 - [TEST_STEP][PASSED] - nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss): null
+
+2020-03-18 18:50:10 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-18 18:50:10 - [TEST_STEP][PASSED] - strDate = nowDateTime.format(now): null
+
+2020-03-18 18:50:10 - [TEST_STEP][PASSED] - return strDate: NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:50:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), 10): Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-18 18:50:12 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-18 18:50:12 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), emailAddress): Text 'payal+200318185010@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-18 18:50:13 - [MESSAGE][PASSED] - Text 'payal+200318185010@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-18 18:50:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputPassword"), "Px/nOzMEHWxU8lgHigNsmA=="): Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-18 18:50:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-18 18:50:13 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-18 18:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-18 18:50:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-03-18 18:50:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-03-18 18:50:24 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' is clicked on
+
+2020-03-18 18:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' is clicked on
+
+2020-03-18 18:50:28 - [TEST_STEP][NOT_RUN] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL)): NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL))
+
+2020-03-18 18:50:28 - [MESSAGE][NOT_RUN] - NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL))
+
+2020-03-18 18:50:28 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:50:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:50:28 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:50:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:50:28 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next"))
+
+2020-03-18 18:50:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next"))
+
+2020-03-18 18:50:28 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account"))
+
+2020-03-18 18:50:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account"))
+
+2020-03-18 18:50:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team"))
+
+2020-03-18 18:50:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team"))
+
+2020-03-18 18:50:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite"))
+
+2020-03-18 18:50:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite"))
+
+2020-03-18 18:50:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip"))
+
+2020-03-18 18:50:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip"))
+
+2020-03-18 18:50:29 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true): NOT_RUN: selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true)
+
+2020-03-18 18:50:29 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true)
+
+2020-03-18 18:50:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit"))
+
+2020-03-18 18:50:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit"))
+
+2020-03-18 18:50:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu"))
+
+2020-03-18 18:50:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu"))
+
+2020-03-18 18:50:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:50:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:50:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-18 18:50:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/General/Opening Browser" time="10.121" classname="Test Cases/TD2/General/Opening Browser" status="PASSED">
+         <system-out><![CDATA[2020-03-18 18:50:29 - [TEST_CASE][PASSED] - Test Cases/TD2/General/Opening Browser: Test Cases/TD2/General/Opening Browser
+
+2020-03-18 18:50:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-18 18:50:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-18 18:50:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-18 18:50:32 - [TEST_STEP][PASSED] - navigateToUrl("https://2a.timedoctor.com"): Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-18 18:50:38 - [MESSAGE][PASSED] - Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-18 18:50:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-18 18:50:39 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree" time="59.43" classname="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree" status="PASSED">
+         <system-out><![CDATA[2020-03-18 18:50:39 - [TEST_CASE][PASSED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree
+
+2020-03-18 18:50:40 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-03-18 18:50:40 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-03-18 18:50:40 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2020-03-18 18:50:40 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2020-03-18 18:50:40 - [TEST_STEP][NOT_RUN] - navigateToUrl("www.timedoctor.com"): NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-18 18:50:40 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-18 18:50:40 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-18 18:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-18 18:50:45 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL)): null
+
+2020-03-18 18:50:46 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/WebsiteVersion' is present
+
+2020-03-18 18:50:46 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/SwitchVersion")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/SwitchVersion' is clicked on
+
+2020-03-18 18:50:47 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'payals-air', ip: 'fe80:0:0:0:1c54:7313:354:3ba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/y0/2h8rty_s349...}, goog:chromeOptions: {debuggerAddress: localhost:55575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b6861bc8e96e0ae24a1d87c40246a003
+
+2020-03-18 18:51:17 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'payals-air', ip: 'fe80:0:0:0:1c54:7313:354:3ba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/y0/2h8rty_s349...}, goog:chromeOptions: {debuggerAddress: localhost:55575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b6861bc8e96e0ae24a1d87c40246a003
+
+2020-03-18 18:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/SwitchVersion' is clicked on
+
+2020-03-18 18:51:17 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes"), 10, OPTIONAL)): null
+
+2020-03-18 18:51:18 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present
+
+2020-03-18 18:51:18 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is clicked on
+
+2020-03-18 18:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is clicked on
+
+2020-03-18 18:51:18 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1' is clicked on
+
+2020-03-18 18:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1' is clicked on
+
+2020-03-18 18:51:19 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree' is clicked on
+
+2020-03-18 18:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree' is clicked on
+
+2020-03-18 18:51:21 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/RadioAccountOption")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-18 18:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-18 18:51:22 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-18 18:51:22 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-18 18:51:22 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonContinue")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-18 18:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-18 18:51:22 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputName"), "Payal"): Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+
+2020-03-18 18:51:23 - [MESSAGE][PASSED] - Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+
+2020-03-18 18:51:23 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-18 18:51:23 - [TEST_STEP][PASSED] - emailAddress = "payal+" + getDateTime() + "@timedoctor.com": null
+
+2020-03-18 18:51:23 - [TEST_STEP][PASSED] - nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss): null
+
+2020-03-18 18:51:23 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-18 18:51:23 - [TEST_STEP][PASSED] - strDate = nowDateTime.format(now): null
+
+2020-03-18 18:51:23 - [TEST_STEP][PASSED] - return strDate: NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:51:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), 10): Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-18 18:51:24 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-18 18:51:24 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), emailAddress): Text 'payal+200318185123@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-18 18:51:25 - [MESSAGE][PASSED] - Text 'payal+200318185123@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-18 18:51:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputPassword"), "Px/nOzMEHWxU8lgHigNsmA=="): Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-18 18:51:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-18 18:51:26 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-18 18:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-18 18:51:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-03-18 18:51:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-03-18 18:51:36 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' is clicked on
+
+2020-03-18 18:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' is clicked on
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL)): NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL))
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next"))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next"))
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account"))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account"))
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team"))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team"))
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite"))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite"))
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip"))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip"))
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true): NOT_RUN: selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true)
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true)
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit"))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit"))
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu"))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu"))
+
+2020-03-18 18:51:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:51:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:51:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-18 18:51:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/General/Opening Browser" time="11.158" classname="Test Cases/TD2/General/Opening Browser" status="PASSED">
+         <system-out><![CDATA[2020-03-18 18:51:39 - [TEST_CASE][PASSED] - Test Cases/TD2/General/Opening Browser: Test Cases/TD2/General/Opening Browser
+
+2020-03-18 18:51:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-18 18:51:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-18 18:51:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-18 18:51:41 - [TEST_STEP][PASSED] - navigateToUrl("https://2a.timedoctor.com"): Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-18 18:51:49 - [MESSAGE][PASSED] - Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-18 18:51:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-18 18:51:50 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - No - No - TryItFree" time="63.282" classname="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - No - No - TryItFree" status="PASSED">
+         <system-out><![CDATA[2020-03-18 18:51:50 - [TEST_CASE][PASSED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - No - No - TryItFree: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - No - No - TryItFree
+
+2020-03-18 18:51:50 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-03-18 18:51:50 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-03-18 18:51:50 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2020-03-18 18:51:50 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2020-03-18 18:51:50 - [TEST_STEP][NOT_RUN] - navigateToUrl("www.timedoctor.com"): NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-18 18:51:50 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-18 18:51:50 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-18 18:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-18 18:51:55 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL)): null
+
+2020-03-18 18:51:57 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/WebsiteVersion' is present
+
+2020-03-18 18:51:57 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/SwitchVersion")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/SwitchVersion' is clicked on
+
+2020-03-18 18:51:57 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'payals-air', ip: 'fe80:0:0:0:1c54:7313:354:3ba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/y0/2h8rty_s349...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8dafc20e696bc946a24327f8ed566353
+
+2020-03-18 18:52:28 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'payals-air', ip: 'fe80:0:0:0:1c54:7313:354:3ba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/y0/2h8rty_s349...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8dafc20e696bc946a24327f8ed566353
+
+2020-03-18 18:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/SwitchVersion' is clicked on
+
+2020-03-18 18:52:28 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes"), 10, OPTIONAL)): null
+
+2020-03-18 18:52:28 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present
+
+2020-03-18 18:52:28 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonNo")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo' is clicked on
+
+2020-03-18 18:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo' is clicked on
+
+2020-03-18 18:52:29 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1' is clicked on
+
+2020-03-18 18:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1' is clicked on
+
+2020-03-18 18:52:29 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree' is clicked on
+
+2020-03-18 18:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree' is clicked on
+
+2020-03-18 18:52:31 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/RadioAccountOption")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-18 18:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-18 18:52:32 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-18 18:52:32 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-18 18:52:32 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonContinue")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-18 18:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-18 18:52:33 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputName"), "Payal"): Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+
+2020-03-18 18:52:33 - [MESSAGE][PASSED] - Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+
+2020-03-18 18:52:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com"): NOT_RUN: setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com")
+
+2020-03-18 18:52:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com")
+
+2020-03-18 18:52:33 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-18 18:52:33 - [TEST_STEP][PASSED] - emailAddress = "payal+" + getDateTime() + "@timedoctor.com": null
+
+2020-03-18 18:52:33 - [TEST_STEP][PASSED] - nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss): null
+
+2020-03-18 18:52:33 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-18 18:52:33 - [TEST_STEP][PASSED] - strDate = nowDateTime.format(now): null
+
+2020-03-18 18:52:33 - [TEST_STEP][PASSED] - return strDate: NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:52:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), 10): Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-18 18:52:34 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-18 18:52:34 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), emailAddress): Text 'payal+200318185233@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-18 18:52:35 - [MESSAGE][PASSED] - Text 'payal+200318185233@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-18 18:52:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputPassword"), "Px/nOzMEHWxU8lgHigNsmA=="): Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-18 18:52:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-18 18:52:36 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-18 18:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-18 18:52:37 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-03-18 18:52:52 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-03-18 18:52:52 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' is clicked on
+
+2020-03-18 18:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' is clicked on
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL)): NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL))
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next"))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next"))
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account"))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account"))
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team"))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team"))
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite"))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite"))
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip"))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip"))
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true): NOT_RUN: selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true)
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true)
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit"))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit"))
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu"))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu"))
+
+2020-03-18 18:52:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:52:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-18 18:52:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/General/Opening Browser" time="11.862" classname="Test Cases/TD2/General/Opening Browser" status="PASSED">
+         <system-out><![CDATA[2020-03-18 18:52:53 - [TEST_CASE][PASSED] - Test Cases/TD2/General/Opening Browser: Test Cases/TD2/General/Opening Browser
+
+2020-03-18 18:52:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-18 18:52:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-18 18:52:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-18 18:52:56 - [TEST_STEP][PASSED] - navigateToUrl("https://2a.timedoctor.com"): Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-18 18:53:05 - [MESSAGE][PASSED] - Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-18 18:53:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-18 18:53:05 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/CC - Negative Testing" time="73.841" classname="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/CC - Negative Testing" status="PASSED">
+         <system-out><![CDATA[2020-03-18 18:53:05 - [TEST_CASE][PASSED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/CC - Negative Testing: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/CC - Negative Testing
+
+2020-03-18 18:53:06 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-03-18 18:53:06 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-03-18 18:53:06 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2020-03-18 18:53:06 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2020-03-18 18:53:06 - [TEST_STEP][NOT_RUN] - navigateToUrl("www.timedoctor.com"): NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-18 18:53:06 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-18 18:53:06 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-18 18:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-18 18:53:11 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL)): null
+
+2020-03-18 18:53:12 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/WebsiteVersion' is present
+
+2020-03-18 18:53:12 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/SwitchVersion")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/SwitchVersion' is clicked on
+
+2020-03-18 18:53:12 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'payals-air', ip: 'fe80:0:0:0:1c54:7313:354:3ba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/y0/2h8rty_s349...}, goog:chromeOptions: {debuggerAddress: localhost:55899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e0b0e43ca8ce2436ce828ce3dac31d2b
+
+2020-03-18 18:53:43 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'payals-air', ip: 'fe80:0:0:0:1c54:7313:354:3ba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/y0/2h8rty_s349...}, goog:chromeOptions: {debuggerAddress: localhost:55899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e0b0e43ca8ce2436ce828ce3dac31d2b
+
+2020-03-18 18:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/SwitchVersion' is clicked on
+
+2020-03-18 18:53:43 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes"), 10, OPTIONAL)): null
+
+2020-03-18 18:53:44 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present
+
+2020-03-18 18:53:44 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonNo")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo' is clicked on
+
+2020-03-18 18:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo' is clicked on
+
+2020-03-18 18:53:44 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1' is clicked on
+
+2020-03-18 18:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1' is clicked on
+
+2020-03-18 18:53:45 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree' is clicked on
+
+2020-03-18 18:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree' is clicked on
+
+2020-03-18 18:53:46 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/RadioAccountOption")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-18 18:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-18 18:53:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-18 18:53:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-18 18:53:47 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonContinue")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-18 18:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-18 18:53:48 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputName"), "Payal"): Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+
+2020-03-18 18:53:48 - [MESSAGE][PASSED] - Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+
+2020-03-18 18:53:49 - [TEST_STEP][NOT_RUN] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com"): NOT_RUN: setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com")
+
+2020-03-18 18:53:49 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com")
+
+2020-03-18 18:53:49 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-18 18:53:49 - [TEST_STEP][PASSED] - emailAddress = "payal+" + getDateTime() + "@timedoctor.com": null
+
+2020-03-18 18:53:49 - [TEST_STEP][PASSED] - nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss): null
+
+2020-03-18 18:53:49 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-18 18:53:49 - [TEST_STEP][PASSED] - strDate = nowDateTime.format(now): null
+
+2020-03-18 18:53:49 - [TEST_STEP][PASSED] - return strDate: NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:53:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), 10): Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-18 18:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-18 18:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), emailAddress): Text 'payal+200318185349@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-18 18:53:50 - [MESSAGE][PASSED] - Text 'payal+200318185349@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-18 18:53:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputPassword"), "Px/nOzMEHWxU8lgHigNsmA=="): Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-18 18:53:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-18 18:53:51 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-18 18:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-18 18:53:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-18 18:53:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-18 18:53:57 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit")): Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit' is clicked on
+
+2020-03-18 18:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit' is clicked on
+
+2020-03-18 18:54:09 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextPlease enter your card details"), "Please enter your card details."): NOT_RUN: verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextPlease enter your card details"), "Please enter your card details.")
+
+2020-03-18 18:54:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextPlease enter your card details"), "Please enter your card details.")
+
+2020-03-18 18:54:09 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Name on Card_name"), "Payal Choksey"): Text 'Payal Choksey' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Name on Card_name'
+
+2020-03-18 18:54:10 - [MESSAGE][PASSED] - Text 'Payal Choksey' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Name on Card_name'
+
+2020-03-18 18:54:10 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Card Number_number"), "4242 4242 2424 4242 424"): Text '4242 4242 2424 4242 424' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Card Number_number'
+
+2020-03-18 18:54:11 - [MESSAGE][PASSED] - Text '4242 4242 2424 4242 424' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Card Number_number'
+
+2020-03-18 18:54:11 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Expiration_expiry"), "04/2022"): Text '04/2022' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Expiration_expiry'
+
+2020-03-18 18:54:12 - [MESSAGE][PASSED] - Text '04/2022' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Expiration_expiry'
+
+2020-03-18 18:54:12 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_CVC_cvc"), "123"): Text '123' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_CVC_cvc'
+
+2020-03-18 18:54:12 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_CVC_cvc'
+
+2020-03-18 18:54:12 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit")): Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit' is clicked on
+
+2020-03-18 18:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit' is clicked on
+
+2020-03-18 18:54:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-18 18:54:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextSome error occurred Please check your c_f15526"), "Please enter a valid card number"): NOT_RUN: verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextSome error occurred Please check your c_f15526"), "Please enter a valid card number")
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextSome error occurred Please check your c_f15526"), "Please enter a valid card number")
+
+2020-03-18 18:54:18 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonNo I like paying full price")): Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonNo I like paying full price' is clicked on
+
+2020-03-18 18:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonNo I like paying full price' is clicked on
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying"))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL)): NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next"))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account"))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team"))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite"))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip"))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true): NOT_RUN: selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true)
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true)
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit"))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu"))
+
+2020-03-18 18:54:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:54:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-18 18:54:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-18 18:54:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-18 18:48:43 - [TEST_SUITE][PASSED] - Selecting How to Start the Free Account - Visible and Silent: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/CC - Negative Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

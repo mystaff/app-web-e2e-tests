@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selecting How to Start the Free Account - Visible and Silent" time="2.125" tests="1" failures="0" errors="0">
+   <testsuite name="Selecting How to Start the Free Account - Visible and Silent" tests="1" failures="0" errors="0" time="2.125" timestamp="2020-03-23 14:14:24" hostname="sandhyajayesh - 192.168.0.6" id="Test Suites/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sandhyajayesh/Documents/Automation testing/TD2 Registration/Reports/20200323_141411/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200323_141411"/>
+         <property name="logFiles" value="/Users/sandhyajayesh/Documents/Automation testing/TD2 Registration/Reports/20200323_141411/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200323_141411/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sandhyajayesh - 192.168.0.6"/>
+         <property name="hostAddress" value="192.168.0.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+      </properties>
+      <testcase name="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing" time="1.64" classname="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing" status="PASSED">
+         <system-out><![CDATA[2020-03-23 14:14:25 - [TEST_CASE][PASSED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing
+
+2020-03-23 14:14:26 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-03-23 14:14:26 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-03-23 14:14:26 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2020-03-23 14:14:26 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2020-03-23 14:14:26 - [TEST_STEP][NOT_RUN] - navigateToUrl("www.timedoctor.com"): NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-23 14:14:26 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-23 14:14:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button"))
+
+2020-03-23 14:14:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button"))
+
+2020-03-23 14:14:26 - [TEST_STEP][NOT_RUN] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL)): NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL))
+
+2020-03-23 14:14:26 - [MESSAGE][NOT_RUN] - NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL))
+
+2020-03-23 14:14:26 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes"), 10, OPTIONAL)): Unable to verify object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1444)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent.call(Unknown Source)
+	at SignUP - Negative Testing.run(SignUP - Negative Testing:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584953061845.run(TempTestSuite1584953061845.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Sandhyas-MacBook-Pro.local', ip: 'fe80:0:0:0:88b:373:a699:79c2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:816)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:801)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:787)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1444)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent.call(Unknown Source)
+	at Script1584607702291.run(Script1584607702291.groovy:39)
+	... 13 more
+)
+
+2020-03-23 14:14:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-03-23 14:14:26 - [MESSAGE][WARNING] - Unable to verify object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1444)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent.call(Unknown Source)
+	at SignUP - Negative Testing.run(SignUP - Negative Testing:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584953061845.run(TempTestSuite1584953061845.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Sandhyas-MacBook-Pro.local', ip: 'fe80:0:0:0:88b:373:a699:79c2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:816)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:801)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:787)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1444)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent.call(Unknown Source)
+	at Script1584607702291.run(Script1584607702291.groovy:39)
+	... 13 more
+)
+
+2020-03-23 14:14:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-23 14:14:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-23 14:14:24 - [TEST_SUITE][PASSED] - Selecting How to Start the Free Account - Visible and Silent: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

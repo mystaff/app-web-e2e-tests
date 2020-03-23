@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Next3</name>
+   <tag></tag>
+   <elementGuidId>ec46b2d0-abc3-4459-9cf1-90ab562cfa88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;wizard-root&quot;]/div[6]/md-dialog/md-dialog-actions/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;wizard-root&quot;]/div[6]/md-dialog/md-dialog-actions/button</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selecting How to Start the Free Account - Visible and Silent" time="123.943" tests="2" failures="1" errors="0">
+   <testsuite name="Selecting How to Start the Free Account - Visible and Silent" tests="2" failures="1" errors="0" time="123.943" timestamp="2020-03-19 10:09:26" hostname="payalchoksey - payals-air" id="Test Suites/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_100920/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_100920"/>
+         <property name="logFiles" value="/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_100920/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_100920/execution0.log"/>
+         <property name="attachments" value="/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_100920/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_100920/1584592887636.png"/>
+         <property name="hostName" value="payalchoksey - payals-air"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="7b541b07a16711626c9b6aa79fda6f6d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TD2/General/Opening Browser" time="17.112" classname="Test Cases/TD2/General/Opening Browser" status="PASSED">
+         <system-out><![CDATA[2020-03-19 10:09:26 - [TEST_CASE][PASSED] - Test Cases/TD2/General/Opening Browser: Test Cases/TD2/General/Opening Browser
+
+2020-03-19 10:09:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-19 10:09:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-19 10:09:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-19 10:09:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-19 10:09:33 - [TEST_STEP][PASSED] - navigateToUrl("https://2a.timedoctor.com"): Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-19 10:09:43 - [MESSAGE][PASSED] - Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-19 10:09:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-19 10:09:43 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes" time="104.934" classname="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584592760272.run(TempTestSuite1584592760272.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' located by 'By.xpath: //*[@id=&quot;dialogContent_12&quot;]/div[2]/form/div[2]/button[2]/span[1][count(. | //span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')]) = count(//span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-03-19 10:09:43 - [TEST_CASE][FAILED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584592760272.run(TempTestSuite1584592760272.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' located by 'By.xpath: //*[@id="dialogContent_12"]/div[2]/form/div[2]/button[2]/span[1][count(. | //span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')]) = count(//span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-03-19 10:09:44 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-03-19 10:09:44 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-03-19 10:09:44 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2020-03-19 10:09:44 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2020-03-19 10:09:44 - [TEST_STEP][NOT_RUN] - navigateToUrl("www.timedoctor.com"): NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-19 10:09:44 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-19 10:09:44 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-19 10:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-19 10:09:52 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL)): null
+
+2020-03-19 10:09:53 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/WebsiteVersion' is present
+
+2020-03-19 10:09:53 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/SwitchVersion")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/SwitchVersion' is clicked on
+
+2020-03-19 10:09:54 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'payals-air', ip: 'fe80:0:0:0:1c54:7313:354:3ba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/y0/2h8rty_s349...}, goog:chromeOptions: {debuggerAddress: localhost:63856}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7b541b07a16711626c9b6aa79fda6f6d
+
+2020-03-19 10:10:24 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'payals-air', ip: 'fe80:0:0:0:1c54:7313:354:3ba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/y0/2h8rty_s349...}, goog:chromeOptions: {debuggerAddress: localhost:63856}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7b541b07a16711626c9b6aa79fda6f6d
+
+2020-03-19 10:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/SwitchVersion' is clicked on
+
+2020-03-19 10:10:24 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes"), 10, OPTIONAL)): null
+
+2020-03-19 10:10:25 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present
+
+2020-03-19 10:10:25 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is clicked on
+
+2020-03-19 10:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is clicked on
+
+2020-03-19 10:10:25 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes2")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes2' is clicked on
+
+2020-03-19 10:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes2' is clicked on
+
+2020-03-19 10:10:26 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes3")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes3' is clicked on
+
+2020-03-19 10:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes3' is clicked on
+
+2020-03-19 10:10:27 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/RadioAccountOption")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-19 10:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-19 10:10:28 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-19 10:10:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-19 10:10:28 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonContinue")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-19 10:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-19 10:10:29 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputName"), "Payal"): Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+
+2020-03-19 10:10:29 - [MESSAGE][PASSED] - Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+
+2020-03-19 10:10:29 - [TEST_STEP][NOT_RUN] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com"): NOT_RUN: setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com")
+
+2020-03-19 10:10:29 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), "payal+qw4@timedoctor.com")
+
+2020-03-19 10:10:29 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-19 10:10:29 - [TEST_STEP][PASSED] - emailAddress = "payal+" + getDateTime() + "@timedoctor.com": null
+
+2020-03-19 10:10:29 - [TEST_STEP][PASSED] - nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss): null
+
+2020-03-19 10:10:29 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-19 10:10:29 - [TEST_STEP][PASSED] - strDate = nowDateTime.format(now): null
+
+2020-03-19 10:10:29 - [TEST_STEP][FAILED] - return strDate: Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584592760272.run(TempTestSuite1584592760272.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' located by 'By.xpath: //*[@id="dialogContent_12"]/div[2]/form/div[2]/button[2]/span[1][count(. | //span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')]) = count(//span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1581303663523.run(Script1581303663523.groovy:79)
+	... 13 more
+)
+
+2020-03-19 10:10:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), 10): Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-19 10:10:30 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-19 10:10:30 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), emailAddress): Text 'payal+200319101029@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-19 10:10:32 - [MESSAGE][PASSED] - Text 'payal+200319101029@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-19 10:10:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputPassword"), "Px/nOzMEHWxU8lgHigNsmA=="): Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-19 10:10:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-19 10:10:33 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-19 10:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-19 10:10:33 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-03-19 10:10:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-03-19 10:10:43 - [TEST_STEP][FAILED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying")): Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584592760272.run(TempTestSuite1584592760272.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' located by 'By.xpath: //*[@id="dialogContent_12"]/div[2]/form/div[2]/button[2]/span[1][count(. | //span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')]) = count(//span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1581303663523.run(Script1581303663523.groovy:79)
+	... 13 more
+)
+
+2020-03-19 10:11:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="dialogContent_12"]/div[2]/form/div[2]/button[2]/span[1][count(. | //span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')]) = count(//span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-03-19 10:11:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584592760272.run(TempTestSuite1584592760272.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' located by 'By.xpath: //*[@id="dialogContent_12"]/div[2]/form/div[2]/button[2]/span[1][count(. | //span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')]) = count(//span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1581303663523.run(Script1581303663523.groovy:79)
+	... 13 more
+)
+[[ATTACHMENT|/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_100920/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_100920/1584592887636.png]]]]></system-out>
+         <system-err><![CDATA[2020-03-19 10:09:43 - [TEST_CASE][FAILED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584592760272.run(TempTestSuite1584592760272.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' located by 'By.xpath: //*[@id="dialogContent_12"]/div[2]/form/div[2]/button[2]/span[1][count(. | //span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')]) = count(//span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-19 10:09:26 - [TEST_SUITE][FAILED] - Selecting How to Start the Free Account - Visible and Silent: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584592760272.run(TempTestSuite1584592760272.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' located by 'By.xpath: //*[@id="dialogContent_12"]/div[2]/form/div[2]/button[2]/span[1][count(. | //span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')]) = count(//span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-03-19 10:09:26 - [TEST_SUITE][FAILED] - Selecting How to Start the Free Account - Visible and Silent: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584592760272.run(TempTestSuite1584592760272.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying' located by 'By.xpath: //*[@id="dialogContent_12"]/div[2]/form/div[2]/button[2]/span[1][count(. | //span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')]) = count(//span[(text() = '
+          No, I like paying ' or . = '
+          No, I like paying ')])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

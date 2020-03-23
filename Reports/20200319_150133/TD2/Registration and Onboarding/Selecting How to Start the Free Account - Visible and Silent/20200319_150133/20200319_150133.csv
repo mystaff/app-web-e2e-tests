@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Selecting How to Start the Free Account - Visible and Silent,Chrome 80.0.3987.149,,,2020-03-19 15:01:42,2020-03-19 15:03:34,1m - 51.575s,FAILED
+,,,,,,,
+Test Cases/TD2/General/Opening Browser,Chrome 80.0.3987.149,Opening Browser,,2020-03-19 15:01:43,2020-03-19 15:02:07,24.476s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,Opening Browser,,2020-03-19 15:01:44,2020-03-19 15:01:54,9.566s,PASSED
+"navigateToUrl(""https://2a.timedoctor.com"")",Chrome 80.0.3987.149,Navigating to TD2 login Page,,2020-03-19 15:01:54,2020-03-19 15:02:07,13.228s,PASSED
+maximizeWindow(),Chrome 80.0.3987.149,Maximizing Window,,2020-03-19 15:02:07,2020-03-19 15:02:07,0.413s,PASSED
+,,,,,,,
+Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes,Chrome 80.0.3987.149,Questions - Yes - Yes - Yes,,2020-03-19 15:02:07,2020-03-19 15:03:34,1m - 26.277s,FAILED
+"openBrowser("""")",Chrome 80.0.3987.149,,,2020-03-19 15:02:09,2020-03-19 15:02:09,0.007s,NOT_RUN
+maximizeWindow(),Chrome 80.0.3987.149,,,2020-03-19 15:02:09,2020-03-19 15:02:09,0.003s,NOT_RUN
+"navigateToUrl(""www.timedoctor.com"")",Chrome 80.0.3987.149,,,2020-03-19 15:02:09,2020-03-19 15:02:09,0.001s,NOT_RUN
+"click(findTestObject(""TD2/Registration and Onboarding/Page_Registration/Register Button""))",Chrome 80.0.3987.149,,,2020-03-19 15:02:09,2020-03-19 15:02:17,8.370s,PASSED
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/WebsiteVersion""), 10, OPTIONAL))",Chrome 80.0.3987.149,Switching from TDC to TD2,,2020-03-19 15:02:17,2020-03-19 15:02:17,0.011s,NOT_RUN
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/ButtonYes""), 10, OPTIONAL))",Chrome 80.0.3987.149, Handing the questions with Yes Yes Yes options,,2020-03-19 15:02:17,2020-03-19 15:02:25,7.492s,PASSED
+nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss),Chrome 80.0.3987.149,,,2020-03-19 15:02:25,2020-03-19 15:02:25,0.029s,PASSED
+now = new java.util.Date(),Chrome 80.0.3987.149,,,2020-03-19 15:02:25,2020-03-19 15:02:25,0.010s,PASSED
+strDate = nowDateTime.format(now),Chrome 80.0.3987.149,,,2020-03-19 15:02:25,2020-03-19 15:02:25,0.015s,PASSED
+return strDate,Chrome 80.0.3987.149,,,2020-03-19 15:02:25,2020-03-19 15:03:34,1m - 8.733s,FAILED

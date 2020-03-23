@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selecting How to Start the Free Account - Visible and Silent" time="152.081" tests="4" failures="2" errors="0">
+   <testsuite name="Selecting How to Start the Free Account - Visible and Silent" tests="4" failures="2" errors="0" time="152.081" timestamp="2020-03-23 11:04:39" hostname="sandhyajayesh - 192.168.0.6" id="Test Suites/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sandhyajayesh/Downloads/TD2 - Till CC/Reports/20200323_110425/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200323_110425"/>
+         <property name="logFiles" value="/Users/sandhyajayesh/Downloads/TD2 - Till CC/Reports/20200323_110425/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200323_110425/execution0.log"/>
+         <property name="attachments" value="/Users/sandhyajayesh/Downloads/TD2 - Till CC/Reports/20200323_110425/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200323_110425/1584941759006.png, /Users/sandhyajayesh/Downloads/TD2 - Till CC/Reports/20200323_110425/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200323_110425/1584941829912.png"/>
+         <property name="hostName" value="sandhyajayesh - 192.168.0.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.0.6"/>
+         <property name="sessionId" value="4eb12c4f16d53e86ad86f1172d53f81b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TD2/General/Opening Browser" time="13.31" classname="Test Cases/TD2/General/Opening Browser" status="PASSED">
+         <system-out><![CDATA[2020-03-23 11:04:39 - [TEST_CASE][PASSED] - Test Cases/TD2/General/Opening Browser: Test Cases/TD2/General/Opening Browser
+
+2020-03-23 11:04:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-23 11:04:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-23 11:04:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-23 11:04:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-23 11:04:42 - [TEST_STEP][PASSED] - navigateToUrl("https://2a.timedoctor.com"): Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-23 11:04:52 - [MESSAGE][PASSED] - Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-23 11:04:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-23 11:04:52 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes" time="67.597" classname="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id(&quot;nameField&quot;)[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-03-23 11:04:52 - [TEST_CASE][FAILED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-03-23 11:04:53 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-03-23 11:04:53 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-03-23 11:04:53 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2020-03-23 11:04:53 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2020-03-23 11:04:53 - [TEST_STEP][NOT_RUN] - navigateToUrl("www.timedoctor.com"): NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-23 11:04:53 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-23 11:04:53 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-23 11:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-23 11:04:59 - [TEST_STEP][NOT_RUN] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL)): NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL))
+
+2020-03-23 11:04:59 - [MESSAGE][NOT_RUN] - NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL))
+
+2020-03-23 11:04:59 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes"), 10, OPTIONAL)): null
+
+2020-03-23 11:05:03 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present
+
+2020-03-23 11:05:03 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is clicked on
+
+2020-03-23 11:05:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is clicked on
+
+2020-03-23 11:05:06 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes2")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes2' is clicked on
+
+2020-03-23 11:05:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes2' is clicked on
+
+2020-03-23 11:05:06 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes3")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes3' is clicked on
+
+2020-03-23 11:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes3' is clicked on
+
+2020-03-23 11:05:07 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/RadioAccountOption")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-23 11:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-23 11:05:07 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-23 11:05:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-23 11:05:07 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonContinue")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-23 11:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-23 11:05:08 - [TEST_STEP][FAILED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputName"), "Payal"): Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1581303663523.run(Script1581303663523.groovy:56)
+	... 13 more
+)
+
+2020-03-23 11:05:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-03-23 11:06:00 - [MESSAGE][FAILED] - Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1581303663523.run(Script1581303663523.groovy:56)
+	... 13 more
+)
+[[ATTACHMENT|/Users/sandhyajayesh/Downloads/TD2 - Till CC/Reports/20200323_110425/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200323_110425/1584941759006.png]]]]></system-out>
+         <system-err><![CDATA[2020-03-23 11:04:52 - [TEST_CASE][FAILED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/General/Opening Browser" time="7.628" classname="Test Cases/TD2/General/Opening Browser" status="PASSED">
+         <system-out><![CDATA[2020-03-23 11:06:00 - [TEST_CASE][PASSED] - Test Cases/TD2/General/Opening Browser: Test Cases/TD2/General/Opening Browser
+
+2020-03-23 11:06:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-23 11:06:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-23 11:06:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-23 11:06:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-23 11:06:02 - [TEST_STEP][PASSED] - navigateToUrl("https://2a.timedoctor.com"): Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-23 11:06:07 - [MESSAGE][PASSED] - Navigate to 'https://2a.timedoctor.com' successfully
+
+2020-03-23 11:06:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-23 11:06:07 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree" time="62.78" classname="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Question - Yes - No - TryItFree.run(Question - Yes - No - TryItFree:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id(&quot;nameField&quot;)[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-03-23 11:06:07 - [TEST_CASE][FAILED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Question - Yes - No - TryItFree.run(Question - Yes - No - TryItFree:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-03-23 11:06:08 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-03-23 11:06:08 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-03-23 11:06:08 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2020-03-23 11:06:08 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2020-03-23 11:06:08 - [TEST_STEP][NOT_RUN] - navigateToUrl("www.timedoctor.com"): NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-23 11:06:08 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-23 11:06:08 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-23 11:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/Register Button' is clicked on
+
+2020-03-23 11:06:15 - [TEST_STEP][NOT_RUN] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL)): NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL))
+
+2020-03-23 11:06:15 - [MESSAGE][NOT_RUN] - NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL))
+
+2020-03-23 11:06:15 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes"), 10, OPTIONAL)): null
+
+2020-03-23 11:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present
+
+2020-03-23 11:06:16 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is clicked on
+
+2020-03-23 11:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is clicked on
+
+2020-03-23 11:06:17 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1' is clicked on
+
+2020-03-23 11:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1' is clicked on
+
+2020-03-23 11:06:17 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree' is clicked on
+
+2020-03-23 11:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree' is clicked on
+
+2020-03-23 11:06:18 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/RadioAccountOption")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-23 11:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/RadioAccountOption' is clicked on
+
+2020-03-23 11:06:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-23 11:06:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/RadioButtonVisible"))
+
+2020-03-23 11:06:18 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonContinue")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-23 11:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonContinue' is clicked on
+
+2020-03-23 11:06:19 - [TEST_STEP][FAILED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputName"), "Payal"): Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Question - Yes - No - TryItFree.run(Question - Yes - No - TryItFree:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1581303688964.run(Script1581303688964.groovy:56)
+	... 13 more
+)
+
+2020-03-23 11:07:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-03-23 11:07:10 - [MESSAGE][FAILED] - Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Question - Yes - No - TryItFree.run(Question - Yes - No - TryItFree:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1581303688964.run(Script1581303688964.groovy:56)
+	... 13 more
+)
+[[ATTACHMENT|/Users/sandhyajayesh/Downloads/TD2 - Till CC/Reports/20200323_110425/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200323_110425/1584941829912.png]]]]></system-out>
+         <system-err><![CDATA[2020-03-23 11:06:07 - [TEST_CASE][FAILED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Question - Yes - No - TryItFree.run(Question - Yes - No - TryItFree:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-23 11:04:39 - [TEST_SUITE][FAILED] - Selecting How to Start the Free Account - Visible and Silent: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-03-23 11:04:39 - [TEST_SUITE][FAILED] - Selecting How to Start the Free Account - Visible and Silent: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Payal' of object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Questions - Yes - Yes - Yes.run(Questions - Yes - Yes - Yes:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941676028.run(TempTestSuite1584941676028.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputName' located by 'By.xpath: id("nameField")[count(. | //input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1']) = count(//input[@name = 'name' and @id = 'nameField' and @type = 'text' and @class = 'form-control first-time' and @placeholder = 'Your Name' and @maxlength = '32' and @tabindex = '1'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

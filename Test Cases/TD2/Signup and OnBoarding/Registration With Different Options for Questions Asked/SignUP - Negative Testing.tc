@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sign Up - Negative Testing</description>
+   <name>SignUP - Negative Testing</name>
+   <tag></tag>
+   <comment>Date and Time Function </comment>
+   <testCaseGuid>6b93c6b3-16ce-42d6-9590-ea8e74ef9eba</testCaseGuid>
+</TestCaseEntity>

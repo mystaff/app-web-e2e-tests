@@ -1,0 +1,101 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Selecting How to Start the Free Account - Visible and Silent,Chrome 80.0.3987.149,,,2020-03-19 14:23:37,2020-03-19 14:28:33,4m - 56.438s,FAILED
+,,,,,,,
+Test Cases/TD2/General/Opening Browser,Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:23:37,2020-03-19 14:23:50,12.125s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:23:38,2020-03-19 14:23:42,3.878s,PASSED
+"navigateToUrl(""https://2a.timedoctor.com"")",Chrome 80.0.3987.149,Navigating to TD2 login Page,,2020-03-19 14:23:42,2020-03-19 14:23:49,7.063s,PASSED
+maximizeWindow(),Chrome 80.0.3987.149,Maximizing Window,,2020-03-19 14:23:49,2020-03-19 14:23:50,0.710s,PASSED
+,,,,,,,
+Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Questions - Yes - Yes - Yes,Chrome 80.0.3987.149,Questions - Yes - Yes - Yes,,2020-03-19 14:23:50,2020-03-19 14:24:19,29.497s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,,,2020-03-19 14:23:50,2020-03-19 14:23:50,0.011s,NOT_RUN
+maximizeWindow(),Chrome 80.0.3987.149,,,2020-03-19 14:23:50,2020-03-19 14:23:50,0.003s,NOT_RUN
+"navigateToUrl(""www.timedoctor.com"")",Chrome 80.0.3987.149,,,2020-03-19 14:23:50,2020-03-19 14:23:50,0.001s,NOT_RUN
+"click(findTestObject(""TD2/Registration and Onboarding/Page_Registration/Register Button""))",Chrome 80.0.3987.149,,,2020-03-19 14:23:50,2020-03-19 14:23:56,5.207s,PASSED
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/WebsiteVersion""), 10, OPTIONAL))",Chrome 80.0.3987.149,Switching from TDC to TD2,,2020-03-19 14:23:56,2020-03-19 14:23:56,0.002s,NOT_RUN
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/ButtonYes""), 10, OPTIONAL))",Chrome 80.0.3987.149, Handing the questions with Yes Yes Yes options,,2020-03-19 14:23:56,2020-03-19 14:24:01,5.344s,PASSED
+nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss),Chrome 80.0.3987.149,,,2020-03-19 14:24:01,2020-03-19 14:24:01,0.026s,PASSED
+now = new java.util.Date(),Chrome 80.0.3987.149,,,2020-03-19 14:24:01,2020-03-19 14:24:01,0.015s,PASSED
+strDate = nowDateTime.format(now),Chrome 80.0.3987.149,,,2020-03-19 14:24:01,2020-03-19 14:24:01,0.005s,PASSED
+return strDate,Chrome 80.0.3987.149,,,2020-03-19 14:24:01,2020-03-19 14:24:19,17.715s,PASSED
+closeBrowser(),Chrome 80.0.3987.149,Close the Browser,,2020-03-19 14:24:19,2020-03-19 14:24:19,0.340s,PASSED
+,,,,,,,
+Test Cases/TD2/General/Opening Browser,Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:24:19,2020-03-19 14:24:28,9.227s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:24:19,2020-03-19 14:24:21,1.942s,PASSED
+"navigateToUrl(""https://2a.timedoctor.com"")",Chrome 80.0.3987.149,Navigating to TD2 login Page,,2020-03-19 14:24:21,2020-03-19 14:24:28,6.525s,PASSED
+maximizeWindow(),Chrome 80.0.3987.149,Maximizing Window,,2020-03-19 14:24:28,2020-03-19 14:24:28,0.740s,PASSED
+,,,,,,,
+Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - Yes - No - TryItFree,Chrome 80.0.3987.149,Question - Yes - No - TryItFree,,2020-03-19 14:24:28,2020-03-19 14:24:53,24.706s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,,,2020-03-19 14:24:29,2020-03-19 14:24:29,0.006s,NOT_RUN
+maximizeWindow(),Chrome 80.0.3987.149,,,2020-03-19 14:24:29,2020-03-19 14:24:29,0.001s,NOT_RUN
+"navigateToUrl(""www.timedoctor.com"")",Chrome 80.0.3987.149,,,2020-03-19 14:24:29,2020-03-19 14:24:29,0.001s,NOT_RUN
+"click(findTestObject(""TD2/Registration and Onboarding/Page_Registration/Register Button""))",Chrome 80.0.3987.149,,,2020-03-19 14:24:29,2020-03-19 14:24:34,4.901s,PASSED
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/WebsiteVersion""), 10, OPTIONAL))",Chrome 80.0.3987.149,Switching from TDC to TD2,,2020-03-19 14:24:34,2020-03-19 14:24:34,0.003s,NOT_RUN
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/ButtonYes""), 10, OPTIONAL))",Chrome 80.0.3987.149, Handing the questions with Yes No TryItFree options,,2020-03-19 14:24:34,2020-03-19 14:24:39,5.291s,PASSED
+nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss),Chrome 80.0.3987.149,,,2020-03-19 14:24:39,2020-03-19 14:24:39,0.005s,PASSED
+now = new java.util.Date(),Chrome 80.0.3987.149,,,2020-03-19 14:24:39,2020-03-19 14:24:39,0.003s,PASSED
+strDate = nowDateTime.format(now),Chrome 80.0.3987.149,,,2020-03-19 14:24:39,2020-03-19 14:24:39,0.001s,PASSED
+return strDate,Chrome 80.0.3987.149,,,2020-03-19 14:24:39,2020-03-19 14:24:53,13.675s,PASSED
+closeBrowser(),Chrome 80.0.3987.149,Closing Browser,,2020-03-19 14:24:53,2020-03-19 14:24:53,0.378s,PASSED
+,,,,,,,
+Test Cases/TD2/General/Opening Browser,Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:24:53,2020-03-19 14:25:03,10.162s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:24:53,2020-03-19 14:24:55,1.988s,PASSED
+"navigateToUrl(""https://2a.timedoctor.com"")",Chrome 80.0.3987.149,Navigating to TD2 login Page,,2020-03-19 14:24:55,2020-03-19 14:25:03,7.920s,PASSED
+maximizeWindow(),Chrome 80.0.3987.149,Maximizing Window,,2020-03-19 14:25:03,2020-03-19 14:25:03,0.240s,PASSED
+,,,,,,,
+Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/Question - No - No - TryItFree,Chrome 80.0.3987.149,Question - No - No - TryItFree,,2020-03-19 14:25:03,2020-03-19 14:25:33,29.953s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,,,2020-03-19 14:25:04,2020-03-19 14:25:04,0.001s,NOT_RUN
+maximizeWindow(),Chrome 80.0.3987.149,,,2020-03-19 14:25:04,2020-03-19 14:25:04,0.001s,NOT_RUN
+"navigateToUrl(""www.timedoctor.com"")",Chrome 80.0.3987.149,,,2020-03-19 14:25:04,2020-03-19 14:25:04,0.000s,NOT_RUN
+"click(findTestObject(""TD2/Registration and Onboarding/Page_Registration/Register Button""))",Chrome 80.0.3987.149,,,2020-03-19 14:25:04,2020-03-19 14:25:09,4.932s,PASSED
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/WebsiteVersion""), 10, OPTIONAL))",Chrome 80.0.3987.149,Switching from TDC to TD2,,2020-03-19 14:25:09,2020-03-19 14:25:09,0.001s,NOT_RUN
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/ButtonYes""), 10, OPTIONAL))",Chrome 80.0.3987.149, Handing the questions with Yes Yes Yes options,,2020-03-19 14:25:09,2020-03-19 14:25:14,5.624s,PASSED
+nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss),Chrome 80.0.3987.149,,,2020-03-19 14:25:14,2020-03-19 14:25:14,0.001s,PASSED
+now = new java.util.Date(),Chrome 80.0.3987.149,,,2020-03-19 14:25:14,2020-03-19 14:25:14,0.000s,PASSED
+strDate = nowDateTime.format(now),Chrome 80.0.3987.149,,,2020-03-19 14:25:14,2020-03-19 14:25:14,0.001s,PASSED
+return strDate,Chrome 80.0.3987.149,,,2020-03-19 14:25:14,2020-03-19 14:25:33,18.648s,PASSED
+closeBrowser(),Chrome 80.0.3987.149,Close the Browser,,2020-03-19 14:25:33,2020-03-19 14:25:33,0.347s,PASSED
+,,,,,,,
+Test Cases/TD2/General/Opening Browser,Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:25:33,2020-03-19 14:25:45,11.505s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:25:33,2020-03-19 14:25:35,2.048s,PASSED
+"navigateToUrl(""https://2a.timedoctor.com"")",Chrome 80.0.3987.149,Navigating to TD2 login Page,,2020-03-19 14:25:35,2020-03-19 14:25:44,9.093s,PASSED
+maximizeWindow(),Chrome 80.0.3987.149,Maximizing Window,,2020-03-19 14:25:44,2020-03-19 14:25:45,0.353s,PASSED
+,,,,,,,
+Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/CC - Negative Testing,Chrome 80.0.3987.149,Question - No - No - TryItFree,,2020-03-19 14:25:45,2020-03-19 14:26:50,1m - 5.315s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,,,2020-03-19 14:25:45,2020-03-19 14:25:45,0.005s,NOT_RUN
+maximizeWindow(),Chrome 80.0.3987.149,,,2020-03-19 14:25:45,2020-03-19 14:25:45,0.001s,NOT_RUN
+"navigateToUrl(""www.timedoctor.com"")",Chrome 80.0.3987.149,,,2020-03-19 14:25:45,2020-03-19 14:25:45,0.000s,NOT_RUN
+"click(findTestObject(""TD2/Registration and Onboarding/Page_Registration/Register Button""))",Chrome 80.0.3987.149,,,2020-03-19 14:25:45,2020-03-19 14:25:50,4.852s,PASSED
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/WebsiteVersion""), 10, OPTIONAL))",Chrome 80.0.3987.149,Switching from TDC to TD2,,2020-03-19 14:25:50,2020-03-19 14:26:22,32.343s,PASSED
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/ButtonYes""), 10, OPTIONAL))",Chrome 80.0.3987.149, Handing the questions with Yes Yes Yes options,,2020-03-19 14:26:22,2020-03-19 14:26:27,4.053s,PASSED
+nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss),Chrome 80.0.3987.149,,,2020-03-19 14:26:27,2020-03-19 14:26:27,0.000s,PASSED
+now = new java.util.Date(),Chrome 80.0.3987.149,,,2020-03-19 14:26:27,2020-03-19 14:26:27,0.000s,PASSED
+strDate = nowDateTime.format(now),Chrome 80.0.3987.149,,,2020-03-19 14:26:27,2020-03-19 14:26:27,0.001s,PASSED
+return strDate,Chrome 80.0.3987.149,,,2020-03-19 14:26:27,2020-03-19 14:26:50,23.129s,PASSED
+closeBrowser(),Chrome 80.0.3987.149,Close the Browser,,2020-03-19 14:26:50,2020-03-19 14:26:50,0.343s,PASSED
+,,,,,,,
+Test Cases/TD2/General/Opening Browser,Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:26:50,2020-03-19 14:27:05,15.469s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:26:50,2020-03-19 14:26:52,1.739s,PASSED
+"navigateToUrl(""https://2a.timedoctor.com"")",Chrome 80.0.3987.149,Navigating to TD2 login Page,,2020-03-19 14:26:52,2020-03-19 14:27:05,13.252s,PASSED
+maximizeWindow(),Chrome 80.0.3987.149,Maximizing Window,,2020-03-19 14:27:05,2020-03-19 14:27:05,0.469s,PASSED
+,,,,,,,
+Test Cases/TD2/Signup and OnBoarding/Select how to start the free account/Invite My Team/OnBoarding - Visible,Chrome 80.0.3987.149,Invite My Team - Visible Option Selected,,2020-03-19 14:27:05,2020-03-19 14:28:08,1m - 2.934s,FAILED
+"openBrowser("""")",Chrome 80.0.3987.149,,,2020-03-19 14:27:06,2020-03-19 14:27:06,0.001s,NOT_RUN
+maximizeWindow(),Chrome 80.0.3987.149,,,2020-03-19 14:27:06,2020-03-19 14:27:06,0.001s,NOT_RUN
+"navigateToUrl(""www.timedoctor.com"")",Chrome 80.0.3987.149,,,2020-03-19 14:27:06,2020-03-19 14:27:06,0.002s,NOT_RUN
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/WebsiteVersion""), 10, OPTIONAL))",Chrome 80.0.3987.149,,,2020-03-19 14:27:06,2020-03-19 14:27:06,0.002s,NOT_RUN
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/ButtonYes""), 10, OPTIONAL))",Chrome 80.0.3987.149,,,2020-03-19 14:27:06,2020-03-19 14:27:22,16.133s,PASSED
+else,Chrome 80.0.3987.149,,,2020-03-19 14:27:22,2020-03-19 14:28:08,46.447s,FAILED
+,,,,,,,
+Test Cases/TD2/General/Opening Browser,Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:28:08,2020-03-19 14:28:17,8.434s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,Opening Browser,,2020-03-19 14:28:08,2020-03-19 14:28:10,2.007s,PASSED
+"navigateToUrl(""https://2a.timedoctor.com"")",Chrome 80.0.3987.149,Navigating to TD2 login Page,,2020-03-19 14:28:10,2020-03-19 14:28:16,5.868s,PASSED
+maximizeWindow(),Chrome 80.0.3987.149,Maximizing Window,,2020-03-19 14:28:16,2020-03-19 14:28:17,0.551s,PASSED
+,,,,,,,
+Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing,Chrome 80.0.3987.149,Sign Up - Negative Testing,,2020-03-19 14:28:17,2020-03-19 14:28:33,16.423s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,,,2020-03-19 14:28:17,2020-03-19 14:28:17,0.011s,NOT_RUN
+maximizeWindow(),Chrome 80.0.3987.149,,,2020-03-19 14:28:17,2020-03-19 14:28:17,0.003s,NOT_RUN
+"navigateToUrl(""www.timedoctor.com"")",Chrome 80.0.3987.149,,,2020-03-19 14:28:17,2020-03-19 14:28:17,0.000s,NOT_RUN
+"click(findTestObject(""TD2/Registration and Onboarding/Page_Registration/Register Button""))",Chrome 80.0.3987.149,,,2020-03-19 14:28:17,2020-03-19 14:28:17,0.000s,NOT_RUN
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/WebsiteVersion""), 10, OPTIONAL))",Chrome 80.0.3987.149,Switching from TDC to TD2,,2020-03-19 14:28:17,2020-03-19 14:28:17,0.000s,NOT_RUN
+"if (verifyElementPresent(findTestObject(""TD2/Registration and Onboarding/Page_Registration/ButtonYes""), 10, OPTIONAL))",Chrome 80.0.3987.149, Handing the questions with Yes Yes Yes options,,2020-03-19 14:28:17,2020-03-19 14:28:33,15.811s,PASSED
+closeBrowser(),Chrome 80.0.3987.149,Close the Browser,,2020-03-19 14:28:33,2020-03-19 14:28:33,0.226s,PASSED

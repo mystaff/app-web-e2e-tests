@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selecting How to Start the Free Account - Visible and Silent" time="67.987" tests="1" failures="1" errors="0">
+   <testsuite name="Selecting How to Start the Free Account - Visible and Silent" tests="1" failures="1" errors="0" time="67.987" timestamp="2020-03-19 15:16:35" hostname="payalchoksey - payals-air" id="Test Suites/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_151632/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_151632"/>
+         <property name="logFiles" value="/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_151632/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_151632/execution0.log"/>
+         <property name="attachments" value="/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_151632/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_151632/1584611261444.png, /Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_151632/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_151632/1584611262450.png"/>
+         <property name="hostName" value="payalchoksey - payals-air"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="d7175f27f22dd8852a8fc41ceef92ac8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TD2/Signup and OnBoarding/Direct Signup/Direct Signup Page" time="66.71" classname="Test Cases/TD2/Signup and OnBoarding/Direct Signup/Direct Signup Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TD2/Signup and OnBoarding/Direct Signup/Direct Signup Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Direct Signup Page.run(Direct Signup Page:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584611192116.run(TempTestSuite1584611192116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' located by 'By.xpath: //md-dialog-content[@id='dialogContent_509']/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-03-19 15:16:36 - [TEST_CASE][FAILED] - Test Cases/TD2/Signup and OnBoarding/Direct Signup/Direct Signup Page: Test Cases/TD2/Signup and OnBoarding/Direct Signup/Direct Signup Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Direct Signup Page.run(Direct Signup Page:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584611192116.run(TempTestSuite1584611192116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' located by 'By.xpath: //md-dialog-content[@id='dialogContent_509']/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-03-19 15:16:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-19 15:16:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-19 15:16:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-19 15:16:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-19 15:16:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-19 15:16:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-19 15:16:41 - [TEST_STEP][PASSED] - navigateToUrl("https://2.timedoctor.com/#/signup"): Navigate to 'https://2.timedoctor.com/#/signup' successfully
+
+2020-03-19 15:16:45 - [MESSAGE][PASSED] - Navigate to 'https://2.timedoctor.com/#/signup' successfully
+
+2020-03-19 15:16:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button"), STOP_ON_FAILURE): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button"), STOP_ON_FAILURE)
+
+2020-03-19 15:16:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button"), STOP_ON_FAILURE)
+
+2020-03-19 15:16:45 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Page_Register/InputName"), "Payal"): Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Register/InputName'
+
+2020-03-19 15:16:47 - [MESSAGE][PASSED] - Text 'Payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Register/InputName'
+
+2020-03-19 15:16:47 - [TEST_STEP][PASSED] - emailAddress = "payal+" + getDateTime() + "@timedoctor.com": null
+
+2020-03-19 15:16:47 - [TEST_STEP][PASSED] - nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss): null
+
+2020-03-19 15:16:47 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-19 15:16:47 - [TEST_STEP][PASSED] - strDate = nowDateTime.format(now): null
+
+2020-03-19 15:16:47 - [TEST_STEP][PASSED] - return strDate: null
+
+2020-03-19 15:16:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TD2/Registration and Onboarding/Registration/Page_Register/InputEmailAddress"), 15): Object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Register/InputEmailAddress' is visible
+
+2020-03-19 15:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Register/InputEmailAddress' is visible
+
+2020-03-19 15:16:48 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Page_Register/InputEmailAddress"), emailAddress): Text 'payal+200319151647@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Register/InputEmailAddress'
+
+2020-03-19 15:16:49 - [MESSAGE][PASSED] - Text 'payal+200319151647@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Register/InputEmailAddress'
+
+2020-03-19 15:16:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TD2/Registration and Onboarding/Registration/Page_Register/InputPassword"), "Px/nOzMEHWxU8lgHigNsmA=="): Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Register/InputPassword'
+
+2020-03-19 15:16:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Register/InputPassword'
+
+2020-03-19 15:16:50 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Registration/Page_Register/ButtonSignup")): Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Register/ButtonSignup' is clicked on
+
+2020-03-19 15:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Register/ButtonSignup' is clicked on
+
+2020-03-19 15:16:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-19 15:16:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-19 15:16:56 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Page_Create New Workspace/InputName"), "QA"): Text 'QA' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/InputName'
+
+2020-03-19 15:16:56 - [MESSAGE][PASSED] - Text 'QA' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/InputName'
+
+2020-03-19 15:16:56 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Registration/Page_Create New Workspace/ToggleBlurScreenshot")): Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/ToggleBlurScreenshot' is clicked on
+
+2020-03-19 15:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/ToggleBlurScreenshot' is clicked on
+
+2020-03-19 15:16:57 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Registration/Page_Create New Workspace/RemoveQueryParmeter")): Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/RemoveQueryParmeter' is clicked on
+
+2020-03-19 15:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/RemoveQueryParmeter' is clicked on
+
+2020-03-19 15:16:58 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure"), "Are you sure?"): Verify element text of test object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Direct Signup Page.run(Direct Signup Page:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584611192116.run(TempTestSuite1584611192116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' located by 'By.xpath: //md-dialog-content[@id='dialogContent_509']/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-03-19 15:17:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //md-dialog-content[@id='dialogContent_509']/h2'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-03-19 15:17:42 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' located by 'By.xpath: //md-dialog-content[@id='dialogContent_509']/h2' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' located by 'By.xpath: //md-dialog-content[@id='dialogContent_509']/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Direct Signup Page.run(Direct Signup Page:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584611192116.run(TempTestSuite1584611192116.groovy:36)
+)
+[[ATTACHMENT|/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_151632/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_151632/1584611261444.png]]
+
+2020-03-19 15:17:43 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Direct Signup Page.run(Direct Signup Page:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584611192116.run(TempTestSuite1584611192116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' located by 'By.xpath: //md-dialog-content[@id='dialogContent_509']/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_151632/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_151632/1584611262450.png]]]]></system-out>
+         <system-err><![CDATA[2020-03-19 15:16:36 - [TEST_CASE][FAILED] - Test Cases/TD2/Signup and OnBoarding/Direct Signup/Direct Signup Page: Test Cases/TD2/Signup and OnBoarding/Direct Signup/Direct Signup Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Direct Signup Page.run(Direct Signup Page:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584611192116.run(TempTestSuite1584611192116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' located by 'By.xpath: //md-dialog-content[@id='dialogContent_509']/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-19 15:16:35 - [TEST_SUITE][FAILED] - Selecting How to Start the Free Account - Visible and Silent: Test Cases/TD2/Signup and OnBoarding/Direct Signup/Direct Signup Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Direct Signup Page.run(Direct Signup Page:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584611192116.run(TempTestSuite1584611192116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' located by 'By.xpath: //md-dialog-content[@id='dialogContent_509']/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-03-19 15:16:35 - [TEST_SUITE][FAILED] - Selecting How to Start the Free Account - Visible and Silent: Test Cases/TD2/Signup and OnBoarding/Direct Signup/Direct Signup Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Direct Signup Page.run(Direct Signup Page:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584611192116.run(TempTestSuite1584611192116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TD2/Registration and Onboarding/Registration/Page_Create New Workspace/TextAreyouSure' located by 'By.xpath: //md-dialog-content[@id='dialogContent_509']/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

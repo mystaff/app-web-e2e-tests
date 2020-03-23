@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selecting How to Start the Free Account - Visible and Silent" time="113.336" tests="2" failures="0" errors="0">
+   <testsuite name="Selecting How to Start the Free Account - Visible and Silent" tests="2" failures="0" errors="0" time="113.336" timestamp="2020-03-19 15:09:41" hostname="payalchoksey - payals-air" id="Test Suites/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_150931/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_150931"/>
+         <property name="logFiles" value="/Users/payalchoksey/Desktop/TD2 - Till CC/Reports/20200319_150931/TD2/Registration and Onboarding/Selecting How to Start the Free Account - Visible and Silent/20200319_150931/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="payalchoksey - payals-air"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="63c8a967766f81aa027b380d4b68ed4a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TD2/General/Opening Signup Browser" time="20.369" classname="Test Cases/TD2/General/Opening Signup Browser" status="PASSED">
+         <system-out><![CDATA[2020-03-19 15:09:42 - [TEST_CASE][PASSED] - Test Cases/TD2/General/Opening Signup Browser: Test Cases/TD2/General/Opening Signup Browser
+
+2020-03-19 15:09:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-19 15:09:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-19 15:09:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-19 15:09:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-19 15:09:52 - [TEST_STEP][PASSED] - navigateToUrl("www.timedoctor.com"): Navigate to 'http://www.timedoctor.com' successfully
+
+2020-03-19 15:10:02 - [MESSAGE][PASSED] - Navigate to 'http://www.timedoctor.com' successfully
+
+2020-03-19 15:10:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-19 15:10:02 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing" time="89.762" classname="Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing" status="PASSED">
+         <system-out><![CDATA[2020-03-19 15:10:02 - [TEST_CASE][PASSED] - Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing
+
+2020-03-19 15:10:05 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2020-03-19 15:10:05 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2020-03-19 15:10:05 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2020-03-19 15:10:05 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2020-03-19 15:10:05 - [TEST_STEP][NOT_RUN] - navigateToUrl("www.timedoctor.com"): NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-19 15:10:05 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("www.timedoctor.com")
+
+2020-03-19 15:10:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button"))
+
+2020-03-19 15:10:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Registration/Register Button"))
+
+2020-03-19 15:10:05 - [TEST_STEP][NOT_RUN] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL)): NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL))
+
+2020-03-19 15:10:05 - [MESSAGE][NOT_RUN] - NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/WebsiteVersion"), 10, OPTIONAL))
+
+2020-03-19 15:10:05 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonYes"), 10, OPTIONAL)): null
+
+2020-03-19 15:10:05 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonYes' is present
+
+2020-03-19 15:10:05 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonNo")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo' is clicked on
+
+2020-03-19 15:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo' is clicked on
+
+2020-03-19 15:10:06 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1' is clicked on
+
+2020-03-19 15:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonNo1' is clicked on
+
+2020-03-19 15:10:07 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree' is clicked on
+
+2020-03-19 15:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Onboarding/ButtonTryItFree' is clicked on
+
+2020-03-19 15:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Get Free Account Try It Out")): Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Get Free Account Try It Out' is clicked on
+
+2020-03-19 15:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Get Free Account Try It Out' is clicked on
+
+2020-03-19 15:10:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Oops Name field should not be blank"), "Oops! Name field should not be blank."): Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Oops Name field should not be blank' are matched.
+
+2020-03-19 15:10:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Oops Name field should not be blank' are matched.
+
+2020-03-19 15:10:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_My name_name"), " "): Text ' ' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_My name_name'
+
+2020-03-19 15:10:18 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_My name_name'
+
+2020-03-19 15:10:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Oops Name field should not be blank"), "Oops! Name field should not be blank."): Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Oops Name field should not be blank' are matched.
+
+2020-03-19 15:10:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Oops Name field should not be blank' are matched.
+
+2020-03-19 15:10:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_My name_name"), "payal"): Text 'payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_My name_name'
+
+2020-03-19 15:10:19 - [MESSAGE][PASSED] - Text 'payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_My name_name'
+
+2020-03-19 15:10:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email"), "payal"): Text 'payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email'
+
+2020-03-19 15:10:20 - [MESSAGE][PASSED] - Text 'payal' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email'
+
+2020-03-19 15:10:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Password_password"), "6AwaL659tt4="): Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Password_password'
+
+2020-03-19 15:10:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Password_password'
+
+2020-03-19 15:10:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address"), "Please enter a valid email address!"): Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address' are matched.
+
+2020-03-19 15:10:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address' are matched.
+
+2020-03-19 15:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Enter a password of at least 6 characte_6901e9")): Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Enter a password of at least 6 characte_6901e9' is clicked on
+
+2020-03-19 15:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Enter a password of at least 6 characte_6901e9' is clicked on
+
+2020-03-19 15:10:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email"), "payal+test"): Text 'payal+test' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email'
+
+2020-03-19 15:10:27 - [MESSAGE][PASSED] - Text 'payal+test' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email'
+
+2020-03-19 15:10:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Password_password"), "J7R4ejOak4Y="): Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Password_password'
+
+2020-03-19 15:10:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Password_password'
+
+2020-03-19 15:10:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address"), "Please enter a valid email address!"): Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address' are matched.
+
+2020-03-19 15:10:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address' are matched.
+
+2020-03-19 15:10:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Enter a password of at least 6 characte_6901e9"), "Enter a password of at least 6 characters. It may include numbers, letters or special characters such as $ or !. Spaces are not allowed."): Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Enter a password of at least 6 characte_6901e9' are matched.
+
+2020-03-19 15:10:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Enter a password of at least 6 characte_6901e9' are matched.
+
+2020-03-19 15:10:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out")): Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out' is clicked on
+
+2020-03-19 15:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out' is clicked on
+
+2020-03-19 15:10:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address"), "Please enter a valid email address!"): Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address' are matched.
+
+2020-03-19 15:10:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address' are matched.
+
+2020-03-19 15:10:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email"), "payal+test@"): Text 'payal+test@' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email'
+
+2020-03-19 15:10:32 - [MESSAGE][PASSED] - Text 'payal+test@' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email'
+
+2020-03-19 15:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out")): Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out' is clicked on
+
+2020-03-19 15:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out' is clicked on
+
+2020-03-19 15:10:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address"), "Please enter a valid email address!"): Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address' are matched.
+
+2020-03-19 15:10:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_Please enter a valid email address' are matched.
+
+2020-03-19 15:10:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email"), "payal+test@timedoctor.com"): Text 'payal+test@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email'
+
+2020-03-19 15:10:40 - [MESSAGE][PASSED] - Text 'payal+test@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email'
+
+2020-03-19 15:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out")): Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out' is clicked on
+
+2020-03-19 15:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out' is clicked on
+
+2020-03-19 15:10:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Password_password"), "kbs23wq117C4z+7JL/PnBA=="): Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Password_password'
+
+2020-03-19 15:10:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Password_password'
+
+2020-03-19 15:10:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out")): Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out' is clicked on
+
+2020-03-19 15:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out' is clicked on
+
+2020-03-19 15:10:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_It looks like this account already exis_db7182"), "It looks like this account already exists in our system. Would you like to Sign In instead?"): Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_It looks like this account already exis_db7182' are matched.
+
+2020-03-19 15:10:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/div_It looks like this account already exis_db7182' are matched.
+
+2020-03-19 15:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email"), "payal+test2@timedoctor.com"): Text 'payal+test2@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email'
+
+2020-03-19 15:10:47 - [MESSAGE][PASSED] - Text 'payal+test2@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/input_Company email_email'
+
+2020-03-19 15:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out")): Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out' is clicked on
+
+2020-03-19 15:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Negative Testing/Page_Smart Employee Time Tracking Software _adb7b6/button_Test It Out' is clicked on
+
+2020-03-19 15:10:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-19 15:10:48 - [TEST_STEP][PASSED] - emailAddress = "payal+" + getDateTime() + "@timedoctor.com": null
+
+2020-03-19 15:10:48 - [TEST_STEP][PASSED] - nowDateTime = new java.text.SimpleDateFormat(yyMMddHHmmss): null
+
+2020-03-19 15:10:48 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-19 15:10:48 - [TEST_STEP][PASSED] - strDate = nowDateTime.format(now): null
+
+2020-03-19 15:10:48 - [TEST_STEP][PASSED] - return strDate: NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-19 15:10:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), 10): Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-19 15:10:50 - [MESSAGE][PASSED] - Object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail' is visible
+
+2020-03-19 15:10:50 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail"), emailAddress): Text 'payal+200319151048@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-19 15:10:52 - [MESSAGE][PASSED] - Text 'payal+200319151048@timedoctor.com' is set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputCompanyEmail'
+
+2020-03-19 15:10:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TD2/Registration and Onboarding/Page_Registration/InputPassword"), "Px/nOzMEHWxU8lgHigNsmA=="): Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-19 15:10:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TD2/Registration and Onboarding/Page_Registration/InputPassword'
+
+2020-03-19 15:10:53 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut")): Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-19 15:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Page_Registration/ButtonTestItOut' is clicked on
+
+2020-03-19 15:10:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-19 15:10:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-19 15:10:59 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit")): Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit' is clicked on
+
+2020-03-19 15:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit' is clicked on
+
+2020-03-19 15:11:20 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextPlease enter your card details"), "Please enter your card details."): NOT_RUN: verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextPlease enter your card details"), "Please enter your card details.")
+
+2020-03-19 15:11:20 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextPlease enter your card details"), "Please enter your card details.")
+
+2020-03-19 15:11:20 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Name on Card_name"), "Payal Choksey"): Text 'Payal Choksey' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Name on Card_name'
+
+2020-03-19 15:11:21 - [MESSAGE][PASSED] - Text 'Payal Choksey' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Name on Card_name'
+
+2020-03-19 15:11:21 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Card Number_number"), "4242 4242 2424 4242 424"): Text '4242 4242 2424 4242 424' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Card Number_number'
+
+2020-03-19 15:11:22 - [MESSAGE][PASSED] - Text '4242 4242 2424 4242 424' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Card Number_number'
+
+2020-03-19 15:11:22 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Expiration_expiry"), "04/2022"): Text '04/2022' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Expiration_expiry'
+
+2020-03-19 15:11:23 - [MESSAGE][PASSED] - Text '04/2022' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_Expiration_expiry'
+
+2020-03-19 15:11:23 - [TEST_STEP][PASSED] - setText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_CVC_cvc"), "123"): Text '123' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_CVC_cvc'
+
+2020-03-19 15:11:25 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/input_CVC_cvc'
+
+2020-03-19 15:11:25 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit")): Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit' is clicked on
+
+2020-03-19 15:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonGet 100 account credit' is clicked on
+
+2020-03-19 15:11:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-19 15:11:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-19 15:11:30 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextSome error occurred Please check your c_f15526"), "Please enter a valid card number"): NOT_RUN: verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextSome error occurred Please check your c_f15526"), "Please enter a valid card number")
+
+2020-03-19 15:11:30 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/TextSome error occurred Please check your c_f15526"), "Please enter a valid card number")
+
+2020-03-19 15:11:30 - [TEST_STEP][PASSED] - click(findTestObject("TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonNo I like paying full price")): Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonNo I like paying full price' is clicked on
+
+2020-03-19 15:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TD2/Registration and Onboarding/Registration/Registration - Negative/Page_12 - Team Dashboard/ButtonNo I like paying full price' is clicked on
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_No I like paying"))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL)): NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: if (verifyElementPresent(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Company Name"), 10, OPTIONAL))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next2"))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Next"))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Next - Set up your Account"))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/I dont have team"))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/Submit - Invite"))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonSkip"))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true): NOT_RUN: selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true)
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/DropdownInvite"), "0", true)
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/span_Submit"))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonUserMenu"))
+
+2020-03-19 15:11:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout")): NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-19 15:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TD2/Registration and Onboarding/Page_Onboarding/ButtonLogout"))
+
+2020-03-19 15:11:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-19 15:11:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-19 15:09:41 - [TEST_SUITE][PASSED] - Selecting How to Start the Free Account - Visible and Silent: Test Cases/TD2/Signup and OnBoarding/Registration With Different Options for Questions Asked/SignUP - Negative Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

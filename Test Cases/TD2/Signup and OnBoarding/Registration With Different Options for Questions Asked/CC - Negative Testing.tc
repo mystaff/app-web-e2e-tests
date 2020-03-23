@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Question - No - No - TryItFree</description>
+   <name>CC - Negative Testing</name>
+   <tag></tag>
+   <comment>Date and Time Function </comment>
+   <testCaseGuid>a7edb8b1-9b56-4cd8-809b-9b1a162f883a</testCaseGuid>
+</TestCaseEntity>
